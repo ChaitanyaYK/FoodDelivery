@@ -9,6 +9,7 @@ const FoodItem = ({id, name, price, description, image}) => {
     const {cartItems, addToCart, removeFromCart, url} = useContext(StoreContext);
 
   return (
+    // this  is my code
     <div className='food-item'>
         <div className="food-item-img-container">
             <img src={url+"/images/"+image} alt="" className="food-item-image" />
