@@ -29,7 +29,7 @@
     border-color: red;
 }
 @media (max-width:900) {
-    .sidebar-options p{
+    .sidebar-option p{
         display: none;
     }
 }

@@ -13,10 +13,10 @@ const addToCart = async (req , res)=>{
             cartData[req.body.itemId] += 1;
         }
         await userModel.findByIdAndUpdate(req.body.userId,{cartData});
-        res.json({success:true,message:"Added To Cart"})
+        res.json({success:true, message:"Added To Cart"})
     } catch (error) {
         console.log(error);
-        res.json({success:false,message:"Error"})
+        res.json({success:false, message:"Error"})
     }
 }
 
@@ -49,4 +49,4 @@ const getCart = async (req,res)=>{
     }
 }
 
-export {addToCart, removeFromCart, getCart}
+export {addToCart, removeFromCart, getCart} 

@@ -7,7 +7,6 @@ const foodRouter = express.Router();
 foodRouter.post("/add",addFood)
 
 // Image Storage Engine
-
 const storage = multer.diskStorage({
     destination: "uploads",
     filename:(req,file,cb)=>{

@@ -27,7 +27,7 @@ const addFood = async (req , res) => {
     }
 }
 
-//all food list 
+// all food list 
 const listFood = async (req, res) => {
     try {
         const foods = await foodModel.find({});
