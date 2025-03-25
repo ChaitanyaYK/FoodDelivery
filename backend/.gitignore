@@ -1,0 +1,11 @@
+# Environment variable
+.env
+# .env.local
+# .env.*.local
+
+# Node modules
+node_modules
+
+
+# database
+# backend/config/db.js
